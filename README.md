@@ -110,4 +110,4 @@ Developed by **[ZarCodeX](https://github.com/ZarCodeX)**
 ---
 
 ## 📜 License  
-Licensed under the [MIT License](LICENSE).  
+Licensed under the [MIT License](LICENSE).
